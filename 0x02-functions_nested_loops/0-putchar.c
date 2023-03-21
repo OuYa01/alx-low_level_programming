@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 /**
 *main - Entry point
 *
@@ -6,7 +7,6 @@
 */
 int main(void)
 {
-	int x = 95;
 
 	printf("%cputchar\n", x);
 
