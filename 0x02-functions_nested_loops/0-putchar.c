@@ -7,6 +7,7 @@
 */
 int main(void)
 {
+	int x = 95;
 
 	printf("%cputchar\n", x);
 
