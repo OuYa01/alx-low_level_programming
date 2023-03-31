@@ -2,9 +2,9 @@
 /**
  * _strncat - concatenate two strings
  * using at most n bytes from src
- * @dest: input value
- * @src: input value
- * @n: input value
+ * @dest: input s1
+ * @src: input s2
+ * @n: input value thats i want to print from s1
  *
  * Return: dest
  */
@@ -12,26 +12,17 @@
 /*A function that concatenates two strings with a limit*/
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0; /*index for dest*/
-	int j = 0; /*index for src*/
-
-	/*Find the end of dest*/
-	while (dest[i] != '\0')
+	int i, j;
+	/*Find the length of the destination string*/
+	for (i = 0 ; dest[i] != '\0'; i++)
 	{
-		i++;
 	}
-
-	/*Copy at most n bytes from src to dest*/
-	while (src[j] != '\0' && j < n)
+	/*Append the source string to the end of the destination string*/
+	for (j = 0; src[j] != '\0' && j < n; j++)
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+		dest[i + j] = src[j];
 	}
-
-	/*Add null terminator to dest*/
-	dest[i] = '\0';
-
-	/*Return a pointer to dest*/
+	dest[i + j] = '\0';
+	/*Return the pointer*/
 	return (dest);
 }
