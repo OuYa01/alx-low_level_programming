@@ -11,7 +11,7 @@ char *_strcat(char *dest, char *src)
 	int i, j;
 
 	/*Find the length of the destination string*/
-	for(i = 0; dest[i] != '\0'; i++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
 	/*append the source string to the end of the destinatioon of string*/
