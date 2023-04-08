@@ -1,7 +1,7 @@
 # this directory its about static libraries in 'c'
 ## My static librarie
 ### libmy.a
-1. <span style="color:blue">_putchar.o</span>  =  function writes character 
+1. <font color="blue">_putchar.o</font> = function writes character
 2. 0-isupper.o =  checks for uppercase character   , `int _isupper(int c);`
 3. 0-memset.o  = fills memory with a constant byte , `char *_memset(char *s, char b, unsigned int n);` s : string 
    b > value you want to set  n : the number of baytes you want to set
