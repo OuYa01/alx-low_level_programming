@@ -1,7 +1,7 @@
 # this directory its about static libraries in 'c'
 ## My static librarie
 ### libmy.a
-1.  **_putchar.o_** = function writes character
+1.  **_putchar.o** = function writes character
 2.  **0-isupper.o** = checks for uppercase character, `int _isupper(int c);`
 3.  **0-memset.o** = fills memory with a constant byte, `char *_memset(char *s, char b, unsigned int n);`
     -   `s` : string where the constant byte will be set
