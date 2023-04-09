@@ -10,7 +10,7 @@
  * Return: 1 if the num of arg passed to
  * programm is not exactly 1 or 0 if scc
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int cents, coins, money[] = {25, 10, 5, 2, 1};
 	int i;
