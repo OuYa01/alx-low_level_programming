@@ -14,6 +14,10 @@ char *_strdup(char *str)
 	unsigned int size = 0;
 	unsigned int i;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	/*find the length of the string*/
 	while (str[size] != '\0')
 	{
