@@ -13,7 +13,7 @@ printf "%*s\n" $(( ($(tput cols) + 29) / 2 ))  '' | tr ' ' -
 echo -e "\033[44mCompiling...\033[0m"
 
 # Compile the main file and the additional file
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 "$1" "$2" -o "${1%.*}"
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 "$1" "$2" -o "${2%.*}"
 
 printf "%*s\n" $(( ($(tput cols) + 29) / 2 ))  '' | tr ' ' -
 echo -e "\033[44mHave a good luck with Betty\033[0m"
